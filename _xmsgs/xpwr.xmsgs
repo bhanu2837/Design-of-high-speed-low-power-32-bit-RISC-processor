@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Power" num="1690" delta="old" >
+                      --------------------------------------------------------------
+                      The power estimate will be calculated using ADVANCED data.
+                      --------------------------------------------------------------
+
+</msg>
+
+<msg type="warning" file="Power" num="163" delta="new" >PowerVcd_Dump: Declaration of variable &apos;<arg fmt="%s" index="1">B[31]</arg>&apos; ignored, identifier code &apos;<arg fmt="%s" index="2">A</arg>&apos; is already in use by &apos;<arg fmt="%s" index="3">A</arg>&apos;!
+</msg>
+
+<msg type="warning" file="Power" num="164" delta="new" >PowerVcd_Dump: Subsequent redeclarations of this or other identifier codes will be ignored without comment.
+</msg>
+
+<msg type="error" file="Power" num="1653" delta="new" >Duty cycle &lt;<arg fmt="%0.2f" index="1">181.00</arg>&gt; must be in range [0..100]% for <arg fmt="%s" index="2">A&lt;4&gt;</arg>.
+</msg>
+
+<msg type="error" file="Power" num="1653" delta="new" >Duty cycle &lt;<arg fmt="%0.2f" index="1">184.00</arg>&gt; must be in range [0..100]% for <arg fmt="%s" index="2">A&lt;0&gt;</arg>.
+</msg>
+
+<msg type="error" file="Power" num="1653" delta="new" >Duty cycle &lt;<arg fmt="%0.2f" index="1">194.00</arg>&gt; must be in range [0..100]% for <arg fmt="%s" index="2">B&lt;3&gt;</arg>.
+</msg>
+
+<msg type="error" file="Power" num="1653" delta="new" >Duty cycle &lt;<arg fmt="%0.2f" index="1">194.00</arg>&gt; must be in range [0..100]% for <arg fmt="%s" index="2">B&lt;2&gt;</arg>.
+</msg>
+
+<msg type="error" file="Power" num="1653" delta="new" >Duty cycle &lt;<arg fmt="%0.2f" index="1">194.00</arg>&gt; must be in range [0..100]% for <arg fmt="%s" index="2">B&lt;1&gt;</arg>.
+</msg>
+
+<msg type="error" file="Power" num="1653" delta="new" >Duty cycle &lt;<arg fmt="%0.2f" index="1">194.00</arg>&gt; must be in range [0..100]% for <arg fmt="%s" index="2">add&lt;1&gt;</arg>.
+</msg>
+
+<msg type="error" file="Power" num="1653" delta="new" >Duty cycle &lt;<arg fmt="%0.2f" index="1">194.00</arg>&gt; must be in range [0..100]% for <arg fmt="%s" index="2">add&lt;0&gt;</arg>.
+</msg>
+
+<msg type="error" file="Power" num="1653" delta="new" >Duty cycle &lt;<arg fmt="%0.2f" index="1">154.00</arg>&gt; must be in range [0..100]% for <arg fmt="%s" index="2">mdata&lt;1&gt;</arg>.
+</msg>
+
+<msg type="error" file="Power" num="1653" delta="new" >Duty cycle &lt;<arg fmt="%0.2f" index="1">154.00</arg>&gt; must be in range [0..100]% for <arg fmt="%s" index="2">mdata&lt;0&gt;</arg>.
+</msg>
+
+<msg type="warning" file="PowerEstimator" num="270" delta="old" >Power estimate is considered inaccurate. To see details, generate an advanced report with the &quot;-v&quot; switch.
+</msg>
+
+</messages>
+

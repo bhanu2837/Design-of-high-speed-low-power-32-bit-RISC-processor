@@ -1,0 +1,28 @@
+Command line:
+   arithmetic_logic_unit_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  61650
+
+Fri Jun 25 14:52:25 2021
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5154.14 Meg
+
+ Total Signals          : 19
+ Total Nets             : 115
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 239
+
+ Total Simulation Time: 0.140625 sec
+
+ Current Memory Usage: 4996.86 Meg
+
+Fri Jun 25 14:56:05 2021
+

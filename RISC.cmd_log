@@ -1,0 +1,42 @@
+xst -intstyle ise -ifn "C:/Users/HOME/Desktop/projects VLSI O/major_project_programs/major_project_programs/RISC.xst" -ofn "C:/Users/HOME/Desktop/projects VLSI O/major_project_programs/major_project_programs/RISC.syr" 
+xst -intstyle ise -ifn "C:/Users/HOME/Desktop/projects VLSI O/major_project_programs/major_project_programs/RISC.xst" -ofn "C:/Users/HOME/Desktop/projects VLSI O/major_project_programs/major_project_programs/RISC.syr" 
+xst -intstyle ise -ifn "C:/Users/HOME/Desktop/projects VLSI O/major_project_programs/major_project_programs/RISC.xst" -ofn "C:/Users/HOME/Desktop/projects VLSI O/major_project_programs/major_project_programs/RISC.syr" 
+xst -intstyle ise -ifn "C:/Users/HOME/Desktop/projects VLSI O/major_project_programs/major_project_programs/RISC.xst" -ofn "C:/Users/HOME/Desktop/projects VLSI O/major_project_programs/major_project_programs/RISC.syr" 
+xst -intstyle ise -ifn "C:/Users/HOME/Desktop/projects VLSI O/major_project_programs/major_project_programs/RISC.xst" -ofn "C:/Users/HOME/Desktop/projects VLSI O/major_project_programs/major_project_programs/RISC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7vx330t-ffg1157-3 "RISC.ngc" RISC.ngd  
+map -intstyle ise -p xc7vx330t-ffg1157-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o RISC_map.ncd RISC.ngd RISC.pcf 
+par -w -intstyle ise -ol high -mt off RISC_map.ncd RISC.ncd RISC.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RISC.twx RISC.ncd -o RISC.twr RISC.pcf 
+xpwr -intstyle ise -ol std RISC.ncd RISC.pcf -o RISC.pwr 
+xst -intstyle ise -ifn "C:/Users/HOME/Desktop/projects VLSI O/major_project_programs/major_project_programs/RISC.xst" -ofn "C:/Users/HOME/Desktop/projects VLSI O/major_project_programs/major_project_programs/RISC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7vx330t-ffg1157-3 "RISC.ngc" RISC.ngd  
+map -intstyle ise -p xc7vx330t-ffg1157-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o RISC_map.ncd RISC.ngd RISC.pcf 
+par -w -intstyle ise -ol high -mt off RISC_map.ncd RISC.ncd RISC.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RISC.twx RISC.ncd -o RISC.twr RISC.pcf 
+xpwr -intstyle ise -ol std RISC.ncd RISC.pcf -o RISC.pwr 
+xst -intstyle ise -ifn "C:/Users/HOME/Desktop/projects VLSI O/major_project_programs/major_project_programs/RISC.xst" -ofn "C:/Users/HOME/Desktop/projects VLSI O/major_project_programs/major_project_programs/RISC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "RISC.ngc" RISC.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RISC_map.ncd RISC.ngd RISC.pcf 
+xst -intstyle ise -ifn "C:/Users/HOME/Desktop/projects VLSI O/major_project_programs/major_project_programs/RISC.xst" -ofn "C:/Users/HOME/Desktop/projects VLSI O/major_project_programs/major_project_programs/RISC.syr" 
+xst -intstyle ise -ifn "C:/Users/HOME/Desktop/projects VLSI O/major_project_programs/major_project_programs/RISC.xst" -ofn "C:/Users/HOME/Desktop/projects VLSI O/major_project_programs/major_project_programs/RISC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7vx330t-ffg1157-3 "RISC.ngc" RISC.ngd  
+map -intstyle ise -p xc7vx330t-ffg1157-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o RISC_map.ncd RISC.ngd RISC.pcf 
+par -w -intstyle ise -ol high -mt off RISC_map.ncd RISC.ncd RISC.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RISC.twx RISC.ncd -o RISC.twr RISC.pcf 
+xpwr -intstyle ise -ol std RISC.ncd RISC.pcf -s RISC.vcd -o RISC.pwr 
+xst -intstyle ise -ifn "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC.xst" -ofn "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC.syr" 
+xst -intstyle ise -ifn "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC.xst" -ofn "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC.syr" 
+xst -intstyle ise -ifn "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC.xst" -ofn "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC.syr" 
+xst -intstyle ise -ifn "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC.xst" -ofn "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7vx330t-ffg1157-3 RISC.ngc RISC.ngd  
+map -intstyle ise -p xc7vx330t-ffg1157-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o RISC_map.ncd RISC.ngd RISC.pcf 
+par -w -intstyle ise -ol high -mt off RISC_map.ncd RISC.ncd RISC.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RISC.twx RISC.ncd -o RISC.twr RISC.pcf 
+xst -intstyle ise -ifn "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC.xst" -ofn "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC.syr" 
+xst -intstyle ise -ifn "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC.xst" -ofn "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7vx330t-ffg1157-3 RISC.ngc RISC.ngd  
+map -intstyle ise -p xc7vx330t-ffg1157-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o RISC_map.ncd RISC.ngd RISC.pcf 
+par -w -intstyle ise -ol high -mt off RISC_map.ncd RISC.ncd RISC.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RISC.twx RISC.ncd -o RISC.twr RISC.pcf 
+xst -intstyle ise -ifn "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC.xst" -ofn "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC.syr" 
+xst -intstyle ise -ifn "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC.xst" -ofn "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC.syr" 

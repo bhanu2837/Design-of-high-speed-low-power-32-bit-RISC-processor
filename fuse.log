@@ -1,0 +1,32 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC_TB_isim_beh.exe -prj F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC_TB_beh.prj work.RISC_TB work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/program_counter.v" into library work
+Analyzing Verilog file "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/memory.v" into library work
+Analyzing Verilog file "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/instruction_register.v" into library work
+Analyzing Verilog file "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/decoder.v" into library work
+Analyzing Verilog file "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/arithmetic_logic_unit.v" into library work
+Analyzing Verilog file "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/accumulator.v" into library work
+Analyzing Verilog file "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC.v" into library work
+Analyzing Verilog file "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC_TB.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC_TB.v" Line 39: Port adpc is not connected to this instance
+Completed static elaboration
+Compiling module decoder
+Compiling module program_counter
+Compiling module instruction_register
+Compiling module accumulator
+Compiling module arithmetic_logic_unit
+Compiling module memory
+Compiling module RISC
+Compiling module RISC_TB
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 9 Verilog Units
+Built simulation executable F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC_TB_isim_beh.exe
+Fuse Memory Usage: 27968 KB
+Fuse CPU Usage: 1093 ms

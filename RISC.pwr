@@ -1,0 +1,177 @@
+---------------------------------------------------------------------------------------------------------------------------------------------------
+|                                                             Xilinx XPower Analyzer                                                              |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+| Release                | 14.5 - P.58f (nt64)                                                                                                    |
+| Command Line           | C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\xpwr.exe -intstyle ise -ol std RISC.ncd RISC.pcf -s RISC.vcd -o RISC.pwr  |
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------
+|      Table of Contents       |
+--------------------------------
+| 1.  Settings                 |
+| 1.1.  Project                |
+| 1.2.  Device                 |
+| 1.3.  Environment            |
+| 1.4.  Default Activity Rates |
+| 2.  Summary                  |
+| 2.1.  On-Chip Power Summary  |
+| 2.2.  Thermal Summary        |
+| 2.3.  Power Supply Summary   |
+| 2.4.  Confidence Level       |
+| 3.  Detailed Reports         |
+| 3.1.  By Hierarchy           |
+| 4.  Errors                   |
+| 5.  Warnings                 |
+--------------------------------
+
+1.  Settings
+1.1.  Project
+-----------------------------------------------
+|                   Project                   |
+-----------------------------------------------
+| Design File               | RISC.ncd        |
+| Settings File             | NA              |
+| Physical Constraints File | RISC.pcf        |
+| Simulation Activity File  | RISC.vcd        |
+| Design Nets Matched       | 16%   (104/632) |
+| Simulation Nets Matched   | 48%   (103/214) |
+-----------------------------------------------
+
+1.2.  Device
+----------------------------------------------
+|                   Device                   |
+----------------------------------------------
+| Family           | Virtex7                 |
+| Part             | xc7vx330t               |
+| Package          | ffg1157                 |
+| Temp Grade       | Commercial              |
+| Process          | Typical                 |
+| Speed Grade      | -3                      |
+| Characterization | Advance,v0.7,2012-04-23 |
+----------------------------------------------
+
+1.3.  Environment
+--------------------------------------------
+|               Environment                |
+--------------------------------------------
+| Ambient Temp (C)      | 25.0             |
+| Use custom TJA?       | No               |
+| Custom TJA (C/W)      | NA               |
+| Airflow (LFM)         | 250              |
+| Heat Sink             | Medium Profile   |
+| Custom TSA (C/W)      | NA               |
+| Board Selection       | Medium (10"x10") |
+| # of Board Layers     | 12 to 15         |
+| Custom TJB (C/W)      | NA               |
+| Board Temperature (C) | NA               |
+--------------------------------------------
+
+1.4.  Default Activity Rates
+----------------------------------
+|     Default Activity Rates     |
+----------------------------------
+| FF Toggle Rate (%)     | 12.5  |
+| I/O Toggle Rate (%)    | 12.5  |
+| Output Load (pF)       | 5.0   |
+| I/O Enable Rate (%)    | 100.0 |
+| BRAM Write Rate (%)    | 50.0  |
+| BRAM Enable Rate (%)   | 50.0  |
+| DSP Toggle Rate (%)    | 12.5  |
+----------------------------------
+
+2.  Summary
+2.1.  On-Chip Power Summary
+-----------------------------------------------------------------------------
+|                           On-Chip Power Summary                           |
+-----------------------------------------------------------------------------
+|        On-Chip        | Power (mW) |  Used  | Available | Utilization (%) |
+-----------------------------------------------------------------------------
+| Clocks                |       1.16 |      1 |    ---    |       ---       |
+| Logic                 |       0.06 |    182 |    204000 |               0 |
+| Signals               |       0.13 |    316 |    ---    |       ---       |
+| IOs                   |       0.12 |    103 |       600 |              17 |
+| Static Power          |     142.93 |        |           |                 |
+| Total                 |     144.41 |        |           |                 |
+-----------------------------------------------------------------------------
+
+2.2.  Thermal Summary
+------------------------------
+|      Thermal Summary       |
+------------------------------
+| Effective TJA (C/W) | 1.4  |
+| Max Ambient (C)     | 84.8 |
+| Junction Temp (C)   | 25.2 |
+------------------------------
+
+2.3.  Power Supply Summary
+----------------------------------------------------------
+|                  Power Supply Summary                  |
+----------------------------------------------------------
+|                      | Total  | Dynamic | Static Power |
+----------------------------------------------------------
+| Supply Power (mW)    | 144.41 | 1.47    | 142.93       |
+----------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------
+|                                            Power Supply Currents                                            |
+---------------------------------------------------------------------------------------------------------------
+|     Supply Source     | Supply Voltage | Total Current (mA) | Dynamic Current (mA) | Quiescent Current (mA) |
+---------------------------------------------------------------------------------------------------------------
+| Vccint                |          1.000 |              87.21 |                 1.44 |                  85.76 |
+| Vccaux                |          1.800 |              29.57 |                 0.00 |                  29.57 |
+| Vcco18                |          1.800 |               1.02 |                 0.02 |                   1.00 |
+| Vccbram               |          1.000 |               2.15 |                 0.00 |                   2.15 |
+---------------------------------------------------------------------------------------------------------------
+
+2.4.  Confidence Level
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|                                                                                                    Confidence Level                                                                                                    |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+|       User Input Data       | Confidence |                        Details                         |                                                       Action                                                       |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Design implementation state | High       | Design is completely routed                            |                                                                                                                    |
+| Clock nodes activity        | Low        | User specified less than 75% of clocks                 | Provide missing clock activity with a constraint file, simulation results or by editing the "By Clock Domain" view |
+| I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view           |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views         |
+| Device models               | Medium     | Device models are not Production                       | Device models may change and in turn slightly affect accuracy                                                      |
+|                             |            |                                                        |                                                                                                                    |
+| Overall confidence level    | Low        |                                                        |                                                                                                                    |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3.  Details
+3.1.  By Hierarchy
+----------------------------------------------------------------------------------------------------------------------------------------------------
+|  By Hierarchy   |   Power (mW)    | Logic Power (mW) | Signal Power (mW) |      # FFs      |     # LUTs      |     # DRAMs     |    # CARRY4s    |
+----------------------------------------------------------------------------------------------------------------------------------------------------
+| Hierarchy total |   0.19          |   0.06           |   0.13            |    113          |    172          |     32          |      8          |
+|   RISC          |   0.03 /   0.19 |   0.00 /   0.06  |   0.03 /   0.13   |      0 /    113 |      0 /    172 |      0 /     32 |      0 /      8 |
+|     d6          |   0.03          |   0.01           |   0.02            |     32          |      2          |     32          |      0          |
+|     d5          |   0.04          |   0.03           |   0.02            |     38          |    127          |      0          |      8          |
+|     d4          |   0.01          |   0.00           |   0.01            |     32          |     33          |      0          |      0          |
+|     d3          |   0.01          |   0.00           |   0.01            |      3          |      1          |      0          |      0          |
+|     d1          |   0.07          |   0.02           |   0.04            |      8          |      9          |      0          |      0          |
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+4.  Errors
+--------------------------------------------------------------------------------
+ERROR:Power:1653 - Duty cycle <181.00> must be in range [0..100]% for A<4>.
+ERROR:Power:1653 - Duty cycle <184.00> must be in range [0..100]% for A<0>.
+ERROR:Power:1653 - Duty cycle <194.00> must be in range [0..100]% for B<3>.
+ERROR:Power:1653 - Duty cycle <194.00> must be in range [0..100]% for B<2>.
+ERROR:Power:1653 - Duty cycle <194.00> must be in range [0..100]% for B<1>.
+ERROR:Power:1653 - Duty cycle <194.00> must be in range [0..100]% for add<1>.
+ERROR:Power:1653 - Duty cycle <194.00> must be in range [0..100]% for add<0>.
+ERROR:Power:1653 - Duty cycle <154.00> must be in range [0..100]% for mdata<1>.
+ERROR:Power:1653 - Duty cycle <154.00> must be in range [0..100]% for mdata<0>.
+--------------------------------------------------------------------------------
+
+5.  Warnings
+--------------------------------------------------------------------------------
+WARNING:Power:163 - PowerVcd_Dump: Declaration of variable 'B[31]' ignored, identifier code 'A' is already in use by 'A'!
+WARNING:Power:164 - PowerVcd_Dump: Subsequent redeclarations of this or other identifier codes will be ignored without comment.
+WARNING:PowerEstimator:270 - Power estimate is considered inaccurate. To see details, generate an advanced report with the "-v" switch.
+--------------------------------------------------------------------------------
+
+Analysis completed: Thu Jun 10 12:52:08 2021
+----------------------------------------------------------------

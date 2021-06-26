@@ -1,0 +1,7 @@
+MO RISC NULL RISC.v vlg0D/_r_i_s_c.bin 1623308236
+MO arithmetic_logic_unit NULL arithmetic_logic_unit.v vlg3E/arithmetic__logic__unit.bin 1623308236
+MO accumulator NULL accumulator.v vlg04/accumulator.bin 1623308236
+MO program_counter NULL program_counter.v vlg0B/program__counter.bin 1623308236
+MO instruction_register NULL instruction_register.v vlg7A/instruction__register.bin 1623308236
+MO memory NULL memory.v vlg69/memory.bin 1623308236
+MO decoder NULL decoder.v vlg02/decoder.bin 1623308236

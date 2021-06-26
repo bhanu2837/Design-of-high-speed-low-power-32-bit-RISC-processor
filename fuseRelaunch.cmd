@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC_TB_isim_beh.exe" -prj "F:/VHDL/PROGRAMS/Project_Final/major_project_programs/major_project_programs/RISC_TB_beh.prj" "work.RISC_TB" "work.glbl" 

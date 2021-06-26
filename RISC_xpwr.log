@@ -1,0 +1,34 @@
+Loading device for application Rf_Device from file '7vx330t.nph' in environment
+C:\Xilinx\14.5\ISE_DS\ISE\.
+   "RISC" is an NCD, version 3.2, device xc7vx330t, package ffg1157, speed -3
+
+INFO:Power:1690 - 
+   --------------------------------------------------------------
+                         The power estimate will be calculated using ADVANCED
+   data.
+   --------------------------------------------------------------
+
+Design load 20% completeDesign load 25% completeDesign load 30% completeDesign load 60% completeDesign load 95% completeDesign load 100% completeWARNING:Power:163 - PowerVcd_Dump: Declaration of variable 'B[31]' ignored, identifier code 'A' is already in use by 'A'!
+WARNING:Power:164 - PowerVcd_Dump: Subsequent redeclarations of this or other identifier codes will be ignored without comment.
+Annotation 1% completeAnnotation 2% completeAnnotation 3% completeAnnotation 4% completeAnnotation 5% completeAnnotation 6% completeAnnotation 7% completeAnnotation 8% completeAnnotation 9% completeAnnotation 10% completeAnnotation 11% completeAnnotation 12% completeAnnotation 13% completeAnnotation 14% completeAnnotation 15% completeAnnotation 16% completeAnnotation 17% completeAnnotation 18% completeAnnotation 19% completeAnnotation 20% completeAnnotation 21% completeAnnotation 22% completeAnnotation 23% completeAnnotation 24% completeAnnotation 25% completeAnnotation 26% completeAnnotation 27% completeAnnotation 28% completeAnnotation 29% completeAnnotation 30% completeAnnotation 31% completeAnnotation 32% completeAnnotation 33% completeAnnotation 34% completeAnnotation 35% completeAnnotation 36% completeAnnotation 37% completeAnnotation 38% completeAnnotation 39% completeAnnotation 40% completeAnnotation 41% completeAnnotation 42% completeAnnotation 43% completeAnnotation 44% completeAnnotation 45% completeAnnotation 46% completeAnnotation 47% completeAnnotation 48% completeAnnotation 49% completeAnnotation 50% completeAnnotation 51% completeAnnotation 52% completeAnnotation 53% completeAnnotation 54% completeAnnotation 55% completeAnnotation 56% completeAnnotation 57% completeAnnotation 58% completeAnnotation 59% completeAnnotation 60% completeAnnotation 61% completeAnnotation 62% completeAnnotation 63% completeAnnotation 64% completeAnnotation 65% completeAnnotation 66% completeAnnotation 67% completeAnnotation 68% completeAnnotation 69% completeAnnotation 70% completeAnnotation 71% completeAnnotation 72% completeAnnotation 73% completeAnnotation 74% completeAnnotation 75% completeAnnotation 76% completeAnnotation 77% completeAnnotation 78% completeAnnotation 79% completeAnnotation 80% completeAnnotation 81% completeAnnotation 82% completeAnnotation 83% completeAnnotation 84% completeAnnotation 85% completeAnnotation 86% completeAnnotation 87% completeAnnotation 88% completeAnnotation 89% completeAnnotation 90% completeAnnotation 91% completeAnnotation 92% completeAnnotation 93% completeAnnotation 94% completeAnnotation 95% completeAnnotation 96% completeAnnotation 97% completeAnnotation 98% completeAnnotation 99% completeAnnotation 100% completeSimulation design load 59% completeSimulation design load 60% completeSimulation design load 61% completeSimulation design load 62% completeSimulation design load 63% completeSimulation design load 64% completeSimulation design load 65% completeSimulation design load 66% completeSimulation design load 67% completeSimulation design load 68% completeSimulation design load 69% completeSimulation design load 70% completeSimulation design load 71% completeSimulation design load 72% completeSimulation design load 73% completeSimulation design load 74% completeSimulation design load 75% completeSimulation design load 76% completeSimulation design load 77% completeSimulation design load 78% completeSimulation design load 79% completeSimulation design load 80% completeSimulation design load 81% completeSimulation design load 82% completeSimulation design load 83% completeSimulation design load 84% completeSimulation design load 85% completeSimulation design load 86% completeSimulation design load 87% completeSimulation design load 88% completeSimulation design load 89% completeSimulation design load 90% completeERROR:Power:1653 - Duty cycle <181.00> must be in range [0..100]% for A<4>.
+ERROR:Power:1653 - Duty cycle <184.00> must be in range [0..100]% for A<0>.
+ERROR:Power:1653 - Duty cycle <194.00> must be in range [0..100]% for B<3>.
+ERROR:Power:1653 - Duty cycle <194.00> must be in range [0..100]% for B<2>.
+ERROR:Power:1653 - Duty cycle <194.00> must be in range [0..100]% for B<1>.
+ERROR:Power:1653 - Duty cycle <194.00> must be in range [0..100]% for add<1>.
+ERROR:Power:1653 - Duty cycle <194.00> must be in range [0..100]% for add<0>.
+ERROR:Power:1653 - Duty cycle <154.00> must be in range [0..100]% for mdata<1>.
+ERROR:Power:1653 - Duty cycle <154.00> must be in range [0..100]% for mdata<0>.
+Running Vector-less Activity Propagation
+........
+Finished Running Vector-less Activity Propagation
+Finished Running Vector-less Activity Propagation 0 secs 
+Matched 16% (104/632) of design nets
+Matched 48% (103/214) of simulation nets
+WARNING:PowerEstimator:270 - Power estimate is considered inaccurate. To see details, generate an advanced report with the "-v" switch.
+Power report saved as RISC.pwr.
+
+Number of error messages: 9
+Number of warning messages: 3
+Number of info messages: 1
+

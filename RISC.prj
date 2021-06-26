@@ -1,0 +1,7 @@
+verilog work "program_counter.v"
+verilog work "memory.v"
+verilog work "instruction_register.v"
+verilog work "decoder.v"
+verilog work "arithmetic_logic_unit.v"
+verilog work "accumulator.v"
+verilog work "RISC.v"
